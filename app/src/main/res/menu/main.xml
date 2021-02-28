@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btn_local"
+        android:icon="@drawable/ic_baseline_local_grocery_store_24"
+        app:showAsAction="ifRoom"
+        android:title="Local"
+        />
+    <item
+        android:id="@+id/btn_att"
+        android:icon="@drawable/ic_baseline_attach_file_24"
+        app:showAsAction="ifRoom"
+        android:title="Attach"
+        />
+
+
+    <item
+        android:id="@+id/btn_fav"
+        android:title="Favorites"
+        />
+    <item
+        android:id="@+id/btn_cont"
+        android:title="Contact"
+        />
+</menu>
